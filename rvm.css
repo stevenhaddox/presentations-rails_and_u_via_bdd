@@ -1,0 +1,92 @@
+body, #preso, .slide {
+  background-color: #FAFAF2;
+  color: #000;
+  border: none;
+  margin: none;
+  font-family: Monaco, "Courier New", Courier;
+}
+#footer {
+  background-color: #9C1F1F;
+  color: #FFF;
+}
+
+a, a:visited { 
+  text-decoration: none;
+  color: #9C1F1F;
+  font-weight: bold;
+}
+a:hover { text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 { 
+  font-weight: bold;
+  color: #9C1F1F;
+}
+h1, h2 { margin-bottom: 0.5em; }
+
+p { 
+  margin: 1em 0 .5em 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+blockquote {
+  color: white;
+}
+
+.larger {
+  font-size: 2em;
+}
+.smaller  {
+  font-size: 50%;
+}
+.highlight {
+  color: yellow;
+}
+
+.footer { 
+  font-family: Monoco, Courier, 'Courier New', Helvetica !important;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 7px;
+}
+
+dl { margin-top: 1.5em; }
+dt { font-weight: bold; }
+dd { 
+  margin: 0 0 .5em 2em;
+  line-height: 1.3em;
+}
+
+ul { margin-bottom: 1.5em; }
+
+
+/* =============================== */
+/* = CODE COLORING MODIFICATIONS = */
+/* =============================== */
+pre.sh_sourceCode {
+  padding: 10px;
+  font-size: 1.7em;
+  color: #333;
+  margin-top: 5px;
+  border: 1px dashed #000;
+}
+
+.sh_keyword { font-weight: normal !important; }
+
+/*
+#opening_logo {
+  position: absolute; 
+  left: 710px; 
+  top: 360px;
+}
+.commandline code.command {
+  color: green;
+}
+pre.sh_sourceCode  {
+  color: cyan;
+}
+*/

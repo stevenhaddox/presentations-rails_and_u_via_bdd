@@ -1,0 +1,6 @@
+{ "name": "Rails & 'u' via Behavior Driven Development", 
+  "sections": [
+    { "section" : "01_intro" },
+    { "section" : "02_home_page" }
+  ]
+}
