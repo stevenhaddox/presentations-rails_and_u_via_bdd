@@ -67,6 +67,11 @@ ul { margin-bottom: 1.5em; }
 /* =============================== */
 /* = CODE COLORING MODIFICATIONS = */
 /* =============================== */
+pre {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 pre.sh_sourceCode {
   padding: 10px;
   font-size: 1.7em;
