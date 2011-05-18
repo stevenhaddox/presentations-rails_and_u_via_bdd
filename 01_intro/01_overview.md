@@ -1,5 +1,5 @@
 !SLIDE
-## Rails and 'u' via Behavior Driven Development ##
+## Rails and 'u' via BDD ##
 
 <dl>
   <dt>Presented by:</dt>
