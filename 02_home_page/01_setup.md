@@ -10,9 +10,8 @@
   * Let's walk through it…
 
 <div class="footer">
-  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
+  <p>Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a></p>
 </div>
-
 
 !SLIDE code incremental transition=uncover
 ## Setup Commands: ##
@@ -31,9 +30,12 @@
     $ echo 'rvm use 1.9.2@u' > u/.rvmrc
     # Go into our project folder
     $ cd u
+    # Initialize our SQLite3 DBs
+    $ rake db:migrate
+    $ rake db:migrate RAILS_ENV=test
 
 <div class="footer">
-  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
+  <p>Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a></p>
 </div>
 
 !SLIDE code incremental transition=uncover
@@ -53,7 +55,7 @@ Setup our Gemfile to add our testing gems
       gem 'capybara'              # Ruby web browser / parser
       gem 'cucumber-rails'        # Cucumber for BDD testing
       gem 'database_cleaner'      # Cleans your DB between tests
-      gem 'factory_girl'          # Factories > Fixtures (opinion)
+      gem 'factory_girl_rails'    # Factories > Fixtures (opinion)
       gem 'rspec-rails', '~> 2.4' # RSpec for unit tests
     end
 
@@ -63,5 +65,5 @@ Install all your gems in one command:
     $ bundle install
 
 <div class="footer">
-  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
+  <p>Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a></p>
 </div>

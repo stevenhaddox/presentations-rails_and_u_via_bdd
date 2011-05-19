@@ -13,7 +13,7 @@
 </dl>
 
 <div class="footer">
-  Facilitated by: Booz, Allen, Hamilton
+  <p>Facilitated by: Booz, Allen, Hamilton</p>
 </div>
 
 !SLIDE smbullets incremental transition=zoom
@@ -29,7 +29,7 @@
   * Repeat the Feature -> Unit Test -> Code cycle as needed
 
 <div class="footer">
-  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
+  <p>Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a></p>
 </div>
 
 !SLIDE smbullets incremental transition=uncover
@@ -47,6 +47,5 @@
   * _Possibly User Authentication & Validation_
 
 <div class="footer">
-  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
+  <p>Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a></p>
 </div>
-

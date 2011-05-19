@@ -43,16 +43,24 @@ blockquote {
   color: yellow;
 }
 
-.footer { 
-  font-family: Monoco, Courier, 'Courier New', Helvetica !important;
+.footer {
+  height: 16px;
   background-color: #FAFAF2;
   position: absolute;
   bottom: 24px;
-  font-size: 12px;
   text-align: center;
   width: 100%;
-  padding: 2px 0;
   border-top: 1px solid #000;
+}
+
+.footer p {
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  padding: 2px 0;
+  width: 100%;
+  font-family: Monoco, Courier, 'Courier New', Helvetica !important;
+  font-size: 12px;
 }
 
 dl { margin-top: 1.5em; }
