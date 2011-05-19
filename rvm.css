@@ -45,13 +45,14 @@ blockquote {
 
 .footer { 
   font-family: Monoco, Courier, 'Courier New', Helvetica !important;
+  background-color: #FAFAF2;
   position: absolute;
-  bottom: 0;
+  bottom: 24px;
   font-size: 12px;
   text-align: center;
   width: 100%;
-  padding: 0;
-  margin-bottom: 7px;
+  padding: 2px 0;
+  border-top: 1px solid #000;
 }
 
 dl { margin-top: 1.5em; }
