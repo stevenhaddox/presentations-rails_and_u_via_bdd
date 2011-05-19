@@ -35,7 +35,7 @@ The very first thing a visitor does is load the homepage:
 <!SLIDE center transition=uncover>
 ### Run the scenario ###
 
-<img src="cuke-fail-1.png" style="width:900px; height:650px;">
+<img src="http://farm6.static.flickr.com/5069/5735660296_6708c37b57_b.jpg" style="width:900px; height:650px;">
 
 <div class="footer">
   Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
@@ -52,7 +52,7 @@ Failing early is good, but it looks like there's already content on the homepage
     $ rails s
 
 Then navigate to: http://localhost:3000
-![homepage fail](homepage_fail.png)
+<img src="http://farm6.static.flickr.com/5029/5735112305_0d716b2fd3_z.jpg" style="width:640px; height:452px;">
 
 <div class="footer">
   Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
